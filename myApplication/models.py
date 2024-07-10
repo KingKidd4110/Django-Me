@@ -37,6 +37,7 @@ class RecentWork(models.Model):
 # Client Model
 class Client(models.Model):
     name = models.CharField(max_length=100, verbose_name="Client name")
+    description = models.TextField(verbose_name="Client Say")
     image = models.ImageField(upload_to="clients", default="default.png")
 
     def __str__(self):
