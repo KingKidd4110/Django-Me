@@ -84,6 +84,7 @@ img {
     height: auto;
     max-width: 100%;
     border: none;
+    margin: 10px;
     outline: none;
     transition: all 0.2s ease 0s;
     -moz-transition: all 0.2s ease 0s;
